@@ -201,6 +201,12 @@ ul {
     width: 200px;
 }
 
+@media(max-width:767px) {
+    .content .head input:focus {
+        width: 185px;
+    }
+}
+
 .content .head input:focus::placeholder {
     opacity: 0;
 }

@@ -1,0 +1,102 @@
+/* Start box */
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* End box */
+/* Start padding + margin */
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+/* End padding + margin */
+/* Start Color */
+.bg-white {
+    background-color: white;
+}
+
+/* End Color */
+/* Start Position */
+.p-relative {
+    position: relative;
+}
+
+/* End Position */
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.c-black {
+    color: black;
+}
+
+/* End Font */
+/* Start Border */
+.rad-6 {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* End Border */
+/* Global */
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* Global */
+/* Start Width + height */
+.w-full {
+    width: 100%;
+}
+
+/* End Width + height */
+/* Start Component */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* End Component */
+
+.def-border {
+    border: solid 1px #ccc;
+}

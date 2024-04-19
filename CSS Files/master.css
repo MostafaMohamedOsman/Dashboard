@@ -212,8 +212,8 @@ ul {
     height: 10px;
     background-color: var(--red-color);
     border-radius: 50%;
-    right: -3px;
-    top: -3px;
+    right: -5px;
+    top: -5px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;

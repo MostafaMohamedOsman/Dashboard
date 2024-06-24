@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Dashboard">
+    <meta property="og:description" content="This is my third design application using HTML and CSS">
+    <meta property="og:image"
+        content="https://mostafamohamedosman.github.io/Dashboard-Using-Html-Css/Images/fav%20icon-1.png">
+    <meta property="og:url" content="https://mostafamohamedosman.github.io/Dashboard-Using-Html-Css/">
+    <title>Plans</title>
+    <link rel="icon" href="Images/project-management.png" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS Files/framework.css" />
+    <link rel="stylesheet" href="CSS Files/all.min.css" />
+    <link rel="stylesheet" href="CSS Files/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c mt-0">Mostafa</h3>
+            <ul>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-solid fa-chart-column fa-fw"></i>
+                        <span class="hide-mobile" class="hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="hide-mobile">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="hide-mobile">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="hide-mobile">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="hide-mobile">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="hide-mobile">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="hide-mobile">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="hide-mobile">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- Start Head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input type="text" class="p-10 rad-10 def-border" placeholder="Type A Keyword" />
+                </div>
+                <div class="icons d-flex">
+                    <span class="notification p-relative d-flex align-center">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <div class="image p-relative">
+                        <img class="rad-half" src="Images/m.gif" alt="Loading" />
+                    </div>
+                </div>
+            </div>
+            <!-- End Head -->
+            <h1 class="p-relative">Plans</h1>
+            <div class="plans-page d-grid gap-20 m-20">
+                <div class="plan bg-white p-20 rad-6">
+                    <div class="cost bg-green c-white fw-bold txt-c rad-6">
+                        <span class="d-block">Free</span>
+                        <p class="m-0"><sup>$</sup>0.00</p>
+                    </div>
+                    <ul class="mt-20">
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Access All Text Lessons</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Access All Videos Lessons</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Appear On Leaderboard</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-xmark mr-10 c-red"></i>
+                                </div>
+                                <span>Browse Content Without Ads</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-xmark mr-10 c-red"></i>
+                                </div>
+                                <span>Access All Assignments</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-xmark mr-10 c-red"></i>
+                                </div>
+                                <span>Get Daily Prizes</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-xmark mr-10 c-red"></i>
+                                </div>
+                                <span>Earn Certificate</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-xmark mr-10 c-red"></i>
+                                </div>
+                                <span>1 GB Space For Hosting Files</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15 mb-20">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-xmark mr-10 c-red"></i>
+                                </div>
+                                <span>Access Badge System</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn-shape bg-green c-white">Join</a>
+                </div>
+                <div class="plan bg-white p-20 rad-6">
+                    <div class="cost bg-blue-main c-white fw-bold txt-c rad-6">
+                        <span class="d-block">Basic</span>
+                        <p class="m-0"><sup>$</sup> 7.99</p>
+                    </div>
+                    <ul class="mt-20">
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Access All Text Lessons</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Access All Videos Lessons</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Appear On Leaderboard</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Browse Content Without Ads</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Access All Assignments</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Get Daily Prizes</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Earn Certificate</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-xmark mr-10 c-red"></i>
+                                </div>
+                                <span>1 GB Space For Hosting Files</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15 mb-20">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-xmark mr-10 c-red"></i>
+                                </div>
+                                <span>Access Badge System</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn-shape bg-blue-main c-white">Join</a>
+                </div>
+                <div class="plan bg-white p-20 rad-6">
+                    <div class="cost bg-orange c-white fw-bold txt-c rad-6">
+                        <span class="d-block">Premium</span>
+                        <p class="m-0"><sup>$</sup> 19.99</p>
+                    </div>
+                    <ul class="mt-20">
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Access All Text Lessons</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Access All Videos Lessons</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Appear On Leaderboard</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Browse Content Without Ads</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Access All Assignments</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Get Daily Prizes</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Earn Certificate</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>1 GB Space For Hosting Files</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                        <li class="between-flex pt-15 pb-15 mb-20">
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-check mr-10 c-green"></i>
+                                </div>
+                                <span>Access Badge System</span>
+                            </div>
+                            <i class="fa-solid fa-circle-question c-gray"></i>
+                        </li>
+                    </ul>
+                    <p class="c-gray txt-c m-0">This is your current plan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

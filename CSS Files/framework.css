@@ -166,8 +166,8 @@
     background-color: black;
 }
 
-.bg-blue-main {
-    background-color: var(--blue-color);
+.bg-purple-main {
+    background-color: var(--purple-color);
 }
 
 .bg-orange {
@@ -182,8 +182,8 @@
     background-color: var(--green-color);
 }
 
-.c-blue {
-    color: var(--blue-color);
+.c-purple {
+    color: var(--purple-color);
 }
 .c-orange {
     color: var(--orange-color);
@@ -335,12 +335,19 @@
     align-items: center;
 }
 .btn-shape {
+    background-color: #E6E6FA;
+    color: var(--purple-color);
     padding: 4px 10px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
 }
 
 .rad-half {

@@ -95,15 +95,15 @@ textarea {
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
-  box-shadow: inset 0px 2px 15px 0px rgb(0, 0, 0, 0.4),
-    inset 0px -2px 15px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0px 1px 15px 0px rgb(0, 0, 0, 0.4),
+    inset 0px -1px 15px rgba(255, 255, 255, 0.4);
 }
 
 .darkmode-switch::before {
   font-family: var(--fa-style-family-classic);
   position: absolute;
   font-weight: 900;
-  content: "\f185";
+  content: "";
   left: 2px;
   top: 2px;
   width: 24px;
@@ -207,12 +207,12 @@ input:checked ~ .page > div > .projects table tr:hover {
 }
 
 input:checked ~ .page .btn-shape {
-  background-color: var(--purple-alt-color);
+  background-color: var(--purple-color);
   color: #d1e4fc;
 }
 
 input:checked ~ .page .btn-shape:hover {
-  background-color: #010409;
+  background-color: var(--purple-alt-color);
 }
 
 input:checked ~ .page input[type="text"],
@@ -221,6 +221,65 @@ input:checked ~ .page textarea {
   background-color: #868393;
   color: #d1e4fc;
 }
+
+input:checked ~ .page input[type="text"]::placeholder,
+input:checked ~ .page input[type="password"]::placeholder,
+input:checked ~ .page textarea::placeholder {
+  color: #d1e4fc;
+}
+
+input:checked ~ .page .ticket .boxs-holder .box span {
+  color: #d1e4fc;
+}
+
+input:checked ~ .page .settings-page .social-info i {
+  background-color: #010409;
+  border-color: #010409;
+}
+
+input:checked ~ .page .settings-page .social-info input[type="text"] {
+  border-color: #010409;
+}
+
+input:checked ~ .page .profile-page .overview .info-box .box:hover {
+  background-color: #010409;
+}
+
+input:checked ~ .page .profile-page .other-data {
+  background-color: #010409;
+}
+
+input:checked ~ .page .profile-page .other-data .my-skills,
+input:checked ~ .page .profile-page .other-data .last-activities {
+  background-color: #1b1622;
+}
+
+input:checked ~ .page .friends-page .friend .contact i {
+  background-color: var(--purple-color);
+  color: #d1e4fc;
+}
+
+input:checked ~ .page .friends-page .friend .contact i:hover {
+  background-color: var(--purple-alt-color);
+}
+
+input:checked ~ .page .files-page .files {
+  background-color: #010409;
+}
+
+input:checked ~ .page .files-page .files .file {
+  background-color: #1b1622;
+}
+
+input:checked ~ .page .files-page .files .file > i:hover {
+  color: #d1e4fc;
+}
+
+input:checked ~ .page .files-page .files .file:hover .info div,
+input:checked ~ .page .files-page .files .file:hover .info span {
+  color: #d1e4fc;
+}
+
 /*! End Dark Mode */
 /*todo End Global Rules */
 
@@ -982,6 +1041,18 @@ input:checked ~ .page textarea {
   display: flex;
   justify-content: center;
 }
+
+.social-media ul li:first-child div {
+  padding: 0;
+}
+
+.social-media ul li:first-child .button {
+  margin-left: auto;
+  position: relative;
+  justify-content: right;
+  margin-right: 15px;
+}
+
 .social-media ul li > div {
   padding: 18px;
 }
@@ -1278,7 +1349,7 @@ input:checked ~ .page textarea {
 
 .widgets-control .check-boxs div label::before {
   content: "";
-  border: 2px solid var(--gray-color);
+  border: 2px solid var(--purple-color);
 }
 
 .widgets-control .check-boxs div label:hover::before {
@@ -1344,7 +1415,7 @@ input:checked ~ .page textarea {
 
 .backup-manager .check-boxs div label::before {
   content: "";
-  border: 2px solid var(--gray-color);
+  border: 2px solid var(--purple-alt-color);
 }
 
 .backup-manager .check-boxs div label:hover::before {
